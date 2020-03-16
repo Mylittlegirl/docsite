@@ -1,0 +1,20 @@
+name-template: 'release-v$NEXT_PATCH_VERSION'
+tag-template: 'release-v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'add'
+      - 'update'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'fix'
+  - title: '🧰 Maintenance'
+    labels:
+      - 'build'
+      - 'remove'
+      - 'revert'
+change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
+template: |
+  # Changes
+  
+  $CHANGES
