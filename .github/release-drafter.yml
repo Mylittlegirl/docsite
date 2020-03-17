@@ -4,7 +4,7 @@ categories:
   - title: '🚀 Features'
     labels:
       - 'add'
-      - 'update'
+      - 'update(github-action)'
   - title: '🐛 Bug Fixes'
     labels:
       - 'fix'
