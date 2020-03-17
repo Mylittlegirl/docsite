@@ -13,10 +13,6 @@ categories:
       - 'build'
       - 'remove'
       - 'revert'
-  - title: 'test labels'
-      labels:
-        - 'docs: algorithm'
-        - 'dev experience'
 change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
 template: |
   # Changes
