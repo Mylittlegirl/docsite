@@ -2,17 +2,21 @@ name-template: 'release-v$NEXT_PATCH_VERSION'
 tag-template: 'release-v$NEXT_PATCH_VERSION'
 categories:
   - title: '🚀 Features'
-    labels:
+    types:
       - 'add'
-      - 'update(github-action)'
+      - 'update'
   - title: '🐛 Bug Fixes'
-    labels:
+    types:
       - 'fix'
   - title: '🧰 Maintenance'
-    labels:
+    types:
       - 'build'
       - 'remove'
       - 'revert'
+  - title: 'test labels'
+      labels:
+        - 'docs: algorithm'
+        - 'dev experience'
 change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
 template: |
   # Changes
